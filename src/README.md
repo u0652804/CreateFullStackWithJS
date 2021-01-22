@@ -47,9 +47,9 @@ References by [How to create a React frontend and a Node/Express backend and con
 	 
  6. Configuring a new route in the Express API
  
-     Add and edit new file testAPI.js in /backend_express/routes
+     - Add and edit new file testAPI.js in /backend_express/routes
      
-     testAPI.js
+     -testAPI.js
      
         var express = require('express');
 	

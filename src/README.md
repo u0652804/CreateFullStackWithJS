@@ -14,7 +14,7 @@ References by [How to create a React frontend and a Node/Express backend and con
         mkdir firstFullStackJS
         cd firstFullStackJS
         mkdir src 
-	cd src
+	    cd src
 	
 
  3. Create a React App

@@ -42,6 +42,21 @@ References by [How to create a React frontend and a Node/Express backend and con
 	 
  5. Change port of Express App for starting two Apps on same time
      
-	    cd /firstFullStackJS/src/backend_express/bin/www/ 
+	    edit file /firstFullStackJS/src/backend_express/bin/www/ 
 	    replace 3000 to 5000 in line: var port = normalizePort(process.env.PORT || '3000'); 
 	 
+ 6. Configuring a new route in the Express API
+ 
+     Add and edit new file testAPI.js in /backend_express/routes
+     
+     testAPI.js
+     
+        var express = require('express');
+	
+	var router = express.Router();
+	router.get('/', function(req, res, next) {
+	    //service logic
+	    res.send("test API");
+	});
+	
+	module.exports = router;

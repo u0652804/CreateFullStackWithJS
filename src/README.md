@@ -71,3 +71,55 @@ References by [How to create a React frontend and a Node/Express backend and con
            app.use('/testapi', apiRouter);
 	   
            // test http://localhost:5000/testapi
+	   
+7. Add CORS in Express backend for support react front-end to access API because of both are on different port
+
+      - npm install --save cors
+      
+      - edit app.js
+      
+            var cors = require("cors");
+	   
+            app.use(cors());
+	    
+8. Edit App.js of React to test access api from backend
+      
+      - edit App.js
+
+            import logo from './logo.svg';
+		import './App.css';
+
+		import React, { Component } from "react";
+
+		class App extends Component{
+
+		  constructor(props) {
+		    super(props);
+		    this.state = { apiResponse: "" };
+		  }
+
+		  callAPI() {
+		      fetch("http://localhost:5000/testapi")
+			  .then(res => res.text())
+			  .then(res => this.setState({ apiResponse: res }));
+		  }
+
+		  componentWillMount() {
+		      this.callAPI();
+		  }
+
+		  render() {
+		    return(
+		      <div className="App">
+			<header className="App-header">
+			  <img src={logo} className="App-logo" alt="logo" />
+			  <p className="App-intro">{this.state.apiResponse}</p>
+			</header>
+		      </div>
+		    );
+		  }
+		}
+
+		export default App;
+	   
+	   

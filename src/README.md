@@ -53,10 +53,10 @@ References by [How to create a React frontend and a Node/Express backend and con
      
         var express = require('express');
 	
-	var router = express.Router();
-	router.get('/', function(req, res, next) {
+    	var router = express.Router();
+    	router.get('/', function(req, res, next) {
 	    //service logic
-	    res.send("test API");
-	});
+    	    res.send("test API");
+    	});
 	
-	module.exports = router;
+    	module.exports = router;

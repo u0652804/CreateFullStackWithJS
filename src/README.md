@@ -22,6 +22,8 @@ References by [How to create a React frontend and a Node/Express backend and con
         cd firstFullStackJS
         npx create-react-app react_full_stack
         cd react_full_stack
+        // fix to update old react-scripts to v2.1.8
+        npm install react-scripts@2.1.8 
         npm start
         //demo: browser : http://localhost:3000/
         //ps: 

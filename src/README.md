@@ -49,14 +49,23 @@ References by [How to create a React frontend and a Node/Express backend and con
  
      - Add and edit new file testAPI.js in /backend_express/routes
      
-     -testAPI.js
+     - testAPI.js
      
-        var express = require('express');
+           var express = require('express');
 	
-    	var router = express.Router();
-    	router.get('/', function(req, res, next) {
-	    //service logic
-    	    res.send("test API");
-    	});
+           var router = express.Router();
+           router.get('/', function(req, res, next) {
+               //service logic
+               res.send("test API");
+           });
 	
-    	module.exports = router;
+           module.exports = router;
+
+
+     - app.js
+     
+           var apiRouter = require('./routes/testAPI');
+	   
+           app.use('/testapi', apiRouter);
+	   
+           // test http://localhost:5000/testapi

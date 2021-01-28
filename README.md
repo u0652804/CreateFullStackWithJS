@@ -12,7 +12,7 @@ Create a react full stack and a Express backend and connect them.
 
 * **[CORS](https://github.com/u0652804/CreateFullStackWithJS/tree/main/note_3rd/CORS)** - support CORS in backend
 
-* **[Hook & functional component](.)** - use functional component and Hook to replace old techniqe class component
+* **[Hook & functional component](https://github.com/u0652804/CreateFullStackWithJS/tree/main/note_3rd/Hook%20%26%20functional%20component)** - use functional component and Hook to replace old techniqe class component
 
 * **[Add Post Router in backend with JS](https://github.com/u0652804/CreateFullStackWithJS/tree/main/note_3rd/Add%20Post%20Router%20in%20backend%20with%20JS)**
 

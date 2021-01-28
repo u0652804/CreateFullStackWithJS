@@ -43,4 +43,4 @@ References by
         
         module.exports = router;
 		
- 3. [call this post router in React]()
+ 3. [Call this post router in React](https://github.com/u0652804/CreateFullStackWithJS/tree/main/note_3rd/Add%20Post%20Request%20in%20front-end%20with%20JS)

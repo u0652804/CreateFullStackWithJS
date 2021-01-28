@@ -16,7 +16,7 @@ Create a react full stack and a Express backend and connect them.
 
 * **[Add Post Router in backend with JS](https://github.com/u0652804/CreateFullStackWithJS/tree/main/note_3rd/Add%20Post%20Router%20in%20backend%20with%20JS)**
 
-* **[Add Post Request in front-end with JS](.)** 
+* **[Add Post Request in front-end with JS](https://github.com/u0652804/CreateFullStackWithJS/tree/main/note_3rd/Add%20Post%20Request%20in%20front-end%20with%20JS)** 
 
 * **[react-router-dom](.)** - An front-end router for React(SPA structure)
 

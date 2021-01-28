@@ -63,3 +63,16 @@ References by
             <p>P2</p>
           );
         }
+
+### Demo 
+
+ - Switch Home
+ [https://github.com/u0652804/CreateFullStackWithJS/blob/main/note_3rd/react-router-dom/img/demo1.PNG?raw=true]
+ 
+ 
+ - Switch P1
+ [https://github.com/u0652804/CreateFullStackWithJS/blob/main/note_3rd/react-router-dom/img/demo2.PNG?raw=true]
+ 
+ 
+ - Switch P2
+ [https://github.com/u0652804/CreateFullStackWithJS/blob/main/note_3rd/react-router-dom/img/demo3.PNG?raw=true]

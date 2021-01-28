@@ -21,6 +21,6 @@ References by
             }).then(res => {
               console.log("res = " + JSON.stringify(res));
               return res.json()
-            }).then(res => setApiResponse(res.p1 + "\n" + res.p2));
+            }).then(res => console.log(res.p1 + "\n" + res.p2));
 		    //output : Hello p1 Hello p2
-		  }
+	    }

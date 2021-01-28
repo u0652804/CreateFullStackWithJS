@@ -10,17 +10,17 @@ Create a react full stack and a Express backend and connect them.
 
 ### Useful 3rd libraries
 
-* **[CORS](.)** - support CORS in backend
+* **[CORS](https://github.com/u0652804/CreateFullStackWithJS/tree/main/note_3rd/CORS)** - support CORS in backend
 
 * **[Hook & functional component](.)** 
 
-* **[Add Post Router in backend with JS](.)**
+* **[Add Post Router in backend with JS](https://github.com/u0652804/CreateFullStackWithJS/tree/main/note_3rd/Add%20Post%20Router%20in%20backend%20with%20JS)**
 
 * **[Add Post Request in front-end with JS](.)** 
 
 * **[react-router-dom](.)** - An front-end router for React(SPA structure)
 
-* **[Generate uuid](.)** - generate uuids as private key
+* **[Generate uuid](https://github.com/u0652804/CreateFullStackWithJS/tree/main/note_3rd/Generate%20uuid)** - generate uuids as private key
 
 ### Useful 3rd libraries for developing
 

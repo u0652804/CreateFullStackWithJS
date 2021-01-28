@@ -24,6 +24,6 @@ Create a react full stack and a Express backend and connect them.
 
 ### Useful 3rd libraries for developing
 
-* **[Nodemon](.)** 
+* **[Nodemon](https://github.com/u0652804/CreateFullStackWithJS/tree/main/note_3rd_tool/Nodemon)** 
 
 ### application samples 

@@ -66,8 +66,14 @@ References by
 
 ### Demo 
 
+- Switch Home
+
 ![Switch Home](https://github.com/u0652804/CreateFullStackWithJS/blob/main/note_3rd/react-router-dom/img/demo1.PNG)
 
+- Switch P1
+
 ![Switch P1](https://github.com/u0652804/CreateFullStackWithJS/blob/main/note_3rd/react-router-dom/img/demo2.PNG)
+
+- Switch P2
 
 ![Switch P2](https://github.com/u0652804/CreateFullStackWithJS/blob/main/note_3rd/react-router-dom/img/demo3.PNG)
